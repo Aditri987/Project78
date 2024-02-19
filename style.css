@@ -1,0 +1,33 @@
+h1{
+    background-image: -moz-linear-gradient();
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+}
+
+.gradient-text {
+
+    background-image: linear-gradient(red , blue);
+    background-image: conic-gradient(red,blue);
+    background-size: 100%;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+
+
+   
+
+
+
+
+
+  
+body{
+    background: #FF4E50;
+  background: -webkit-linear-gradient(right,lightgreen, red);
+  background: linear-gradient(to left,gold,purple);
+}
